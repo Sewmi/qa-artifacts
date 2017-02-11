@@ -1,0 +1,149 @@
+{
+    "basePath": "/scim/1.0.0",
+    "host": "localhost:9443",
+    "swagger": "2.0",
+    "info": {
+        "description": "Retrieve a user API endpoint. SCIM complience",
+        "title": "UserProvisioning",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/User/{identifier}": {
+            "get": {
+                "summary": "Retirve a user",
+                "x-auth-type": "Application & Application User",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Retrieve a user given identifier as the path parameter.",
+                        "schema": {
+                            "$ref": "#/definitions/user"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "identifier",
+                        "type": "string",
+                        "description": "ID of the user to return",
+                        "required": true
+                    }
+                ],
+                "x-throttling-tier": "Unlimited"
+            }
+        }
+    },
+    "definitions": {
+        "user": {
+            "type": "object",
+            "required": [
+                "schemas",
+                "id",
+                "externalId",
+                "meta"
+            ],
+            "properties": {
+                "schemas": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "id": {
+                    "type": "string"
+                },
+                "externalId": {
+                    "type": "string"
+                },
+                "meta": {
+                    "type": "object",
+                    "properties": {
+                        "resourceType": {
+                            "type": "string"
+                        },
+                        "created": {
+                            "type": "string"
+                        },
+                        "lastModified": {
+                            "type": "string"
+                        },
+                        "location": {
+                            "type": "string"
+                        },
+                        "version": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "resourceType",
+                        "created",
+                        "lastModified",
+                        "location",
+                        "version"
+                    ]
+                },
+                "name": {
+                    "type": "object",
+                    "properties": {
+                        "formatted": {
+                            "type": "string"
+                        },
+                        "familyName": {
+                            "type": "string"
+                        },
+                        "givenName": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "formatted",
+                        "familyName",
+                        "givenName"
+                    ]
+                },
+                "userName": {
+                    "type": "string"
+                },
+                "phoneNumbers": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "value": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "value",
+                            "type"
+                        ]
+                    }
+                },
+                "emails": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "value": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "value",
+                            "type"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
