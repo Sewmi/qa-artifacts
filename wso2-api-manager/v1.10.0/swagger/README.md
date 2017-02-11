@@ -12,7 +12,7 @@ This artifact is created to test API creation given a swagger file in WSO2 API m
 1. You can also create API by given URL [1] of the swagger definition.
 2. In order to test the API created using swagger console provided by API store, you can create a mock backend [2] that returns below information [3]
 
-[1]. 
+[1]. https://raw.githubusercontent.com/Sewmi/qa-artifacts/master/wso2-api-manager/v1.10.0/swagger/sampleSwaggerScimGetUserOperation.json 
 [2]. Sample mock backend URL: http://www.mocky.io/v2/589f4ea21200005209789850
 [3].
 HTTP Status code: 200 OK
