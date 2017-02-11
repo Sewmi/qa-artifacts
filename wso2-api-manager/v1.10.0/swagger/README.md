@@ -24,8 +24,11 @@ This artifact is created to test API creation given a swagger file in WSO2 API m
 [3].
 
 HTTP Status code: 200 OK
+
 Response Content type: application/json
+
 Response Payload:
+
     {
      "schemas":["urn:ietf:params:scim:schemas:core:2.0:User"],
      "id":"2819c223-7f76-453a-919d-413861904646",
