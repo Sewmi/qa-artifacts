@@ -1,0 +1,70 @@
+{
+    "paths": {
+        "/CheckPhoneNumber": {
+            "post": {
+                "x-auth-type": "Application & Application User",
+                "produces": [
+                    "text/xml"
+                ],
+                "responses": {
+                    "200": {}
+                },
+                "description": "Test CORS",
+                "parameters": [
+                    {
+                        "schema": {
+                            "type": "object"
+                        },
+                        "in": "body",
+                        "name": "Payload",
+                        "description": "Request Body",
+                        "required": false
+                    },
+                    {
+                        "in": "header",
+                        "name": "SOAPAction",
+                        "description": "Set to http://ws.cdyne.com/PhoneVerify/query/CheckPhoneNumber",
+                        "type": "string",
+                        "required": false
+                    }
+                ],
+                "x-throttling-tier": "Unlimited",
+                "consumes": [
+                    "text/xml"
+                ]
+            },
+            "get": {
+                "x-auth-type": "Application & Application User",
+                "produces": [
+                    "application/xml"
+                ],
+                "responses": {
+                    "200": {}
+                },
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "PhoneNumber",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "in": "query",
+                        "name": "LicenseKey",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "x-throttling-tier": "Unlimited",
+                "consumes": [
+                    "application/json"
+                ]
+            }
+        }
+    },
+    "swagger": "2.0",
+    "info": {
+        "title": "PhoneVerification",
+        "version": "1.0.0"
+    }
+}

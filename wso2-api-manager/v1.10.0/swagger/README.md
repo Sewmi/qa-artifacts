@@ -10,6 +10,7 @@ This artifact is created to test API creation given a swagger file in WSO2 API m
 3. Create an API by selecting the 'I have an Existing API' option in API Publisher and importing the "sampleSwaggerScimGetUserOperation.json" swagger file.
 4. After importing, enter the context of the API before moving to the 'Implement' stage.
 5. In the 'Implement' stage, select 'HTTP Endpoint' as the 'Endpoint type' and give a valid endpoint that complies to the swagger definition.
+6. In 'Manage' stage, select 'Tier Availability' and 'transports' and publish.
 
 #### Notes:
 
