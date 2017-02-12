@@ -13,7 +13,7 @@
                 "summary": "Retirve a user",
                 "x-auth-type": "Application & Application User",
                 "produces": [
-                    "application/json"
+                    "application/scim+json"
                 ],
                 "responses": {
                     "200": {
