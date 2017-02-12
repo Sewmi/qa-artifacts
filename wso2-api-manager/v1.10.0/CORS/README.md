@@ -28,3 +28,4 @@ You can also create this API by following the steps described in WSO2 API manage
 
 1. https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 2. http://sanjeewamalalgoda.blogspot.com/2015/06/wso2-api-manager-cors-support-and-how.html
+3. https://amilasnotes.wordpress.com/2014/12/29/leveraging-cors-support-in-api-manager/
