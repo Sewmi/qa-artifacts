@@ -25,7 +25,7 @@ This artifact is created to test API creation given a swagger file in WSO2 API m
 
 HTTP Status code: 200 OK
 
-Response Content type: application/json
+Response Content type: application/scim+json
 
 Response Payload:
 
