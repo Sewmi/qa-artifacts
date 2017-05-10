@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>test_CORS</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+   	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<script type="text/javascript">
+
+        $(function(){
+           invokeAPI();
+        });
+
+		   function invokeAPI(){
+
+			   	token ='Bearer a40d48512670f03516d7126ceeb62ece';
+
+
+					$.ajax({
+										type: "GET",
+										url:'https://192.168.8.102:8243/test/v1/test11',
+										beforeSend: function (request){
+								request.setRequestHeader("Authorization", token);
+								request.setRequestHeader("header1", "test_header");
+							},
+
+									success:function(e){
+										alert(JSON.stringify(e));
+
+									}});
+   			}
+	</script>
+
+</head>
+
+<body >
+
+
+
+
+</body>
+</html>
