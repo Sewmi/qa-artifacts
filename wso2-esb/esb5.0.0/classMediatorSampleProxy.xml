@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="classMediatorSampleProxy"
+       transports="http https"
+       startOnLoad="true">
+   <description/>
+   <target>
+      <inSequence>
+         <log>
+            <property name="Message" value="=== In side In sequence ==="/>
+         </log>
+         <class name="sample.test.mediator.TestMediator">
+            <property name="variable1" value=""/>
+            <property name="variable2" value=""/>
+         </class>
+         <log>
+            <property name="Log message" expression="$ctx:TestMediatorValue"/>
+            <property name="end" value="=== END OF MEDIATION ==="/>
+         </log>
+         <respond/>
+      </inSequence>
+   </target>
+</proxy>
