@@ -7,7 +7,7 @@ This sample was created to demonstrate how to write a sample MSF4J service which
 
 # How to build and test the project
 
-1. Hello-Service folder which contain the project pom.xml
+1. Navigate to Hello-Service folder which contain the project pom.xml
 2. Give execute permission if 'run.sh' file doesn't already have permission.
 ```sh
 chmod +x run.sh

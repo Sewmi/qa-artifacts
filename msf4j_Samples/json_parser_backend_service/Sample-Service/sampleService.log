@@ -1,0 +1,67 @@
+TID: [%T] [2018-07-27 16:28:27,285] %P INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 368ms {org.wso2.msf4j.MicroservicesRunner}
+TID: [%T] [2018-07-27 16:28:27,288] %P INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector}
+TID:[%T] [2018-07-27 16:29:31,628]TID:[%T] [2018-07-27 16:29:31,631]Date [2018-07-27 16:29:58,648]Date [2018-07-27 16:29:58,650]Date [2018-07-27 16:30:14,067][2018-07-27 16:32:23,963][2018-07-27 16:32:23,966]TID: [2018-07-27 16:33:14,511]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 218ms {org.wso2.msf4j.MicroservicesRunner}
+TID: [2018-07-27 16:33:14,513]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector}
+TID: [2018-07-27 16:33:27,791]  INFO {org.example.service.SampleService} -   TimeInMillis: 1532689407791Payload String: [10x1][23x0]{
+	"name":"Sewmini",
+	"amount": 28
+}
+ {org.example.service.SampleService}
+TID: [2018-07-27 16:36:02,292]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 384ms {org.wso2.msf4j.MicroservicesRunner}
+TID: [2018-07-27 16:36:02,295]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector}
+TID: [2018-07-27 16:36:30,360]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 223ms {org.wso2.msf4j.MicroservicesRunner}
+TID: [2018-07-27 16:36:30,362]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector}
+TID: [2018-07-27 16:36:51,178]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 227ms {org.wso2.msf4j.MicroservicesRunner}
+TID: [2018-07-27 16:36:51,180]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector}
+TID: [2018-07-27 16:37:11,708]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 223ms {org.wso2.msf4j.MicroservicesRunner}
+TID: [2018-07-27 16:37:11,711]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector}
+TID: [2018-07-27 16:37:32,213]  INFO {org.example.service.SampleService} -   TimeInMillis : 1532689652213 Payload String: [10x1][23x0]{
+	"name":"Sewmini",
+	"amount": 28
+}
+ {org.example.service.SampleService}
+TID: [2018-07-27 16:38:09,588]  INFO {org.example.service.SampleService} -   TimeInMillis : 1532689689588 Payload String: [10x1][23x0]{
+	"name":"Sewmini",
+	"amount": 28
+}
+ {org.example.service.SampleService}
+TID: [2018-07-27 16:40:27,514]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 398ms 
+TID: [2018-07-27 16:40:27,516]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 
+TID: [2018-07-27 16:40:42,553]  INFO {org.example.service.SampleService} -   TimeInMillis : 1532689842553 Payload String: [10x1][23x0]{
+	"name":"Sewmini",
+	"amount": 28
+}
+ 
+TID: [2018-07-27 16:41:07,201]  INFO {org.example.service.SampleService} -   TimeInMillis : 1532689867201 Payload String: {
+	"name":"Sewmini",
+	"amount": 28
+}
+ 
+TID: [2018-07-27 16:48:46,456]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 450ms 
+TID: [2018-07-27 16:48:46,458]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 
+TID: [2018-07-27 16:49:40,430]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 224ms 
+TID: [2018-07-27 16:49:40,433]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 
+TID: [2018-07-27 16:49:49,023] DEBUG {org.example.service.SampleService} -   TimeInMillis : 1532690389023 Payload String: {
+	"name":"Sewmini",
+	"amount": 28
+}
+ 
+TID: [2018-07-27 16:50:16,370] DEBUG {org.example.service.SampleService} -   TimeInMillis : 1532690416370 Payload String: sdhfasjd{
+	"name":"Sewmini",
+	"amount": 28
+}
+ 
+TID: [2018-07-27 16:52:25,396]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 219ms 
+TID: [2018-07-27 16:52:25,399]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 
+TID: [2018-07-27 16:52:46,171] DEBUG {org.example.service.SampleService} -   TimeInMillis : 1532690566171 Payload String: sdhfasjd{
+	"name":"Sewmini",
+	"amount": 28
+}
+ 
+TID: [2018-07-27 16:53:37,244]  INFO {org.wso2.msf4j.MicroservicesRunner} -  Microservices server started in 232ms 
+TID: [2018-07-27 16:53:37,247]  INFO {org.wso2.transport.http.netty.listener.ServerConnectorBootstrap$HTTPServerConnector} -  HTTP(S) Interface starting on host 0.0.0.0 and port 9090 
+TID: [2018-07-27 16:53:40,037] DEBUG {org.example.service.SampleService} -   TimeInMillis : 1532690620037 Payload String ==sdhfasjd{
+	"name":"Sewmini",
+	"amount": 28
+}
+ 
