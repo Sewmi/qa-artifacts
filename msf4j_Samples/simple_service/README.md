@@ -31,8 +31,7 @@ curl -X POST \
   -d '{
 	"name":"Sewmini",
 	"amount": 28
-}
-'
+}'
 ```
 
 
